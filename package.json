@@ -1,0 +1,28 @@
+{
+  "name": "gitee-webhook-handler",
+  "version": "0.1.0",
+  "description": "Web handler / middleware for processing Gitee Webhooks",
+  "main": "gitee-webhook-handler.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "gitee",
+    "webhooks"
+  ],
+  "author": "CloudnuY <cloudnuy@gmail.com> ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudnuY/gitee-webhook-handler.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bl": "~1.1.2",
+    "buffer-equal-constant-time": "~1.0.1"
+  },
+  "devDependencies": {
+    "run-series": "~1.1.4",
+    "tape": "~4.6.0",
+    "through2": "~2.0.1"
+  }
+}

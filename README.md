@@ -29,13 +29,13 @@ handler.on('error', function (err) {
   console.error('Error:', err.message)
 })
 
-handler.on('push', function (event) {
+handler.on('Push Hook', function (event) {
   console.log('Received a push event for %s to %s',
     event.payload.repository.name,
     event.payload.ref)
 })
 
-handler.on('issues', function (event) {
+handler.on('Issue Hook', function (event) {
   console.log('Received an issue event for %s action=%s: #%d %s',
     event.payload.repository.name,
     event.payload.action,
